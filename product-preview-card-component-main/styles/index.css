@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: rgb(226, 214, 214);
+}
+
+.butom {
+  border-radius: 5px;
+  padding: 0.7rem;
+  background-color: rgb(33, 90, 33);
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  color: #eee;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14%;
+}
+.container .imagem {
+  width: 200px;
+  height: 349px;
+}
+
+.informacoes {
+  padding: 2rem;
+  background-color: white;
+}
+.informacoes .titulo {
+  font-size: 10px;
+}
+.informacoes .preco {
+  color: rgb(33, 90, 33);
+}
+.informacoes .dinheiro {
+  display: flex;
+}
+.informacoes .dinheiro .preco {
+  font-weight: bolder;
+}
+.informacoes .dinheiro .desconto {
+  padding: 0 2rem;
+}
+.informacoes .info-container {
+  display: inline-block;
+}/*# sourceMappingURL=index.css.map */

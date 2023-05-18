@@ -1,0 +1,41 @@
+@import './_abstract/base.scss';
+@import './componentes/variaveis.scss';
+@import'./componentes/botao.scss';
+
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14%;
+    .imagem{
+        width: 200px;
+        height: 349px;
+    }
+        
+}
+
+.informacoes{
+    padding: 2rem;
+    background-color: white;
+    .titulo{
+        font-size: 10px;
+    }
+    .preco{
+        color: $cor-do-preco;
+    }
+    .dinheiro{
+        display: flex;
+        .preco{
+            font-weight: bolder;
+        }
+        .desconto{
+            padding: 0 2rem;
+        }
+        
+    }
+    
+    .info-container{
+        display: inline-block
+    }
+}
